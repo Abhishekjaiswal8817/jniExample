@@ -1,0 +1,56 @@
+
+{
+	"buildFiles" : [ "/home/cano-07/Documents/Code/JniExample/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/cano-07/Documents/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-libs-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-libs",
+			"buildCommand" : "/home/cano-07/Documents/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target native-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/cano-07/Documents/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/cano-07/Documents/android-sdk-linux/ndk-bundle/sysroot  -Dnative_libs_EXPORTS -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/cano-07/Documents/Code/JniExample/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/cano-07/Documents/Code/JniExample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-libs.so",
+			"toolchain" : "4124516450023980985"
+		},
+		"testcano-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "testcano",
+			"buildCommand" : "/home/cano-07/Documents/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target testcano",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/cano-07/Documents/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/cano-07/Documents/android-sdk-linux/ndk-bundle/sysroot  -Dtestcano_EXPORTS -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/cano-07/Documents/android-sdk-linux/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/cano-07/Documents/Code/JniExample/app/src/main/cpp/testcano.cpp",
+					"workingDirectory" : "/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/cano-07/Documents/Code/JniExample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libtestcano.so",
+			"toolchain" : "4124516450023980985"
+		}
+	},
+	"toolchains" : 
+	{
+		"4124516450023980985" : 
+		{
+			"cCompilerExecutable" : "/home/cano-07/Documents/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/cano-07/Documents/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,4 @@
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/testcano.dir
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/native-libs.dir

@@ -1,0 +1,4 @@
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/testcano.dir
+/home/cano-07/Documents/Code/JniExample/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/native-libs.dir
