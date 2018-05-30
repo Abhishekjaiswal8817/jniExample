@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText("Result :" + sumTwoValues(45, 10));
         Toast.makeText(this, "Testing", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Testing", Toast.LENGTH_SHORT).show();
     }
 
     /**
