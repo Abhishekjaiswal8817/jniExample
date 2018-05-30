@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText("Result :" + sumTwoValues(45, 10));
-        Toast.makeText(this, "Testing", Toast.LENGTH_SHORT).show();
     }
 
     /**
